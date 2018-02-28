@@ -8,8 +8,9 @@ def deal_card
   [*1..11].sample
 end
 
-def display_card_total
+def display_card_total(sum)
   # code #display_card_total here
+  puts "Your cards add up to #{sum}"
 end
 
 def prompt_user
