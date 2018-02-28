@@ -41,15 +41,13 @@ def hit?(current_total)
   total = current_total
   prompt_user
   response = get_user_input
-
-  case response
-    when 'h'
-      total += deal_card
-    when 's'
-      prompt_user
-    else
-      invalid_command
-      prompt_user
+  if response == 'h'
+    total += deal_card
+  elsif response == 's'
+    prompt_user
+  else
+    invalid_command
+    prompt_user
   end
   total
 end
