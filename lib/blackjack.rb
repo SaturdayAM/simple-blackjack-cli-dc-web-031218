@@ -44,8 +44,7 @@ def hit?(current_total)
   if response == 'h'
     total += deal_card
   elsif response == 's'
-    prompt_user
-    response = get_user_input
+    
   else
     invalid_command
     prompt_user
