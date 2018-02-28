@@ -41,6 +41,7 @@ def hit?(current_total)
   total = current_total
   prompt_user
   response = get_user_input
+
   case response
     when 'h'
       total += deal_card
