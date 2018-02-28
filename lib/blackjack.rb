@@ -15,7 +15,7 @@ end
 
 def prompt_user
   # code #prompt_user here
-  puts "Type 'h' or hit 's' to stay."
+  puts "Type 'h' or hit 's' to stay"
 end
 
 def get_user_input
